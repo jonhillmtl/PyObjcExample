@@ -12,4 +12,7 @@ It uses py2app and pyobjc to create a plugin that can be referenced from Objecti
 * `cd plugin`
 * `pip install -r requirements.txt`
 * wait several years
-* 
+* `python setup.py py2app`
+* `cp -r dist/plugin.plugin ../PyObjcExample`
+* build the XCode project
+* run the app
