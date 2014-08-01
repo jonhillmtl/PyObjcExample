@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC03A84B198BDA040034CEB7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC03A84A198BDA040034CEB7 /* Cocoa.framework */; };
+		FC03A855198BDA040034CEB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC03A853198BDA040034CEB7 /* InfoPlist.strings */; };
+		FC03A857198BDA040034CEB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC03A856198BDA040034CEB7 /* main.m */; };
+		FC03A85B198BDA040034CEB7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FC03A859198BDA040034CEB7 /* Credits.rtf */; };
+		FC03A85E198BDA040034CEB7 /* POCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC03A85D198BDA040034CEB7 /* POCAppDelegate.m */; };
+		FC03A861198BDA050034CEB7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03A85F198BDA050034CEB7 /* MainMenu.xib */; };
+		FC03A863198BDA050034CEB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC03A862198BDA050034CEB7 /* Images.xcassets */; };
+		FC03A86A198BDA050034CEB7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC03A869198BDA050034CEB7 /* XCTest.framework */; };
+		FC03A86B198BDA050034CEB7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC03A84A198BDA040034CEB7 /* Cocoa.framework */; };
+		FC03A873198BDA050034CEB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC03A871198BDA050034CEB7 /* InfoPlist.strings */; };
+		FC03A875198BDA050034CEB7 /* PyObjcExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC03A874198BDA050034CEB7 /* PyObjcExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC03A86C198BDA050034CEB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC03A83F198BDA040034CEB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC03A846198BDA040034CEB7;
+			remoteInfo = PyObjcExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC03A847198BDA040034CEB7 /* PyObjcExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PyObjcExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC03A84A198BDA040034CEB7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FC03A84D198BDA040034CEB7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FC03A84E198BDA040034CEB7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FC03A84F198BDA040034CEB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC03A852198BDA040034CEB7 /* PyObjcExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PyObjcExample-Info.plist"; sourceTree = "<group>"; };
+		FC03A854198BDA040034CEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC03A856198BDA040034CEB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC03A858198BDA040034CEB7 /* PyObjcExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PyObjcExample-Prefix.pch"; sourceTree = "<group>"; };
+		FC03A85A198BDA040034CEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FC03A85C198BDA040034CEB7 /* POCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POCAppDelegate.h; sourceTree = "<group>"; };
+		FC03A85D198BDA040034CEB7 /* POCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POCAppDelegate.m; sourceTree = "<group>"; };
+		FC03A860198BDA050034CEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FC03A862198BDA050034CEB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC03A868198BDA050034CEB7 /* PyObjcExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PyObjcExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC03A869198BDA050034CEB7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC03A870198BDA050034CEB7 /* PyObjcExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PyObjcExampleTests-Info.plist"; sourceTree = "<group>"; };
+		FC03A872198BDA050034CEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC03A874198BDA050034CEB7 /* PyObjcExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PyObjcExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC03A844198BDA040034CEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC03A84B198BDA040034CEB7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC03A865198BDA050034CEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC03A86B198BDA050034CEB7 /* Cocoa.framework in Frameworks */,
+				FC03A86A198BDA050034CEB7 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC03A83E198BDA040034CEB7 = {
+			isa = PBXGroup;
+			children = (
+				FC03A850198BDA040034CEB7 /* PyObjcExample */,
+				FC03A86E198BDA050034CEB7 /* PyObjcExampleTests */,
+				FC03A849198BDA040034CEB7 /* Frameworks */,
+				FC03A848198BDA040034CEB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC03A848198BDA040034CEB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC03A847198BDA040034CEB7 /* PyObjcExample.app */,
+				FC03A868198BDA050034CEB7 /* PyObjcExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC03A849198BDA040034CEB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC03A84A198BDA040034CEB7 /* Cocoa.framework */,
+				FC03A869198BDA050034CEB7 /* XCTest.framework */,
+				FC03A84C198BDA040034CEB7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC03A84C198BDA040034CEB7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC03A84D198BDA040034CEB7 /* AppKit.framework */,
+				FC03A84E198BDA040034CEB7 /* CoreData.framework */,
+				FC03A84F198BDA040034CEB7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FC03A850198BDA040034CEB7 /* PyObjcExample */ = {
+			isa = PBXGroup;
+			children = (
+				FC03A85C198BDA040034CEB7 /* POCAppDelegate.h */,
+				FC03A85D198BDA040034CEB7 /* POCAppDelegate.m */,
+				FC03A85F198BDA050034CEB7 /* MainMenu.xib */,
+				FC03A862198BDA050034CEB7 /* Images.xcassets */,
+				FC03A851198BDA040034CEB7 /* Supporting Files */,
+			);
+			path = PyObjcExample;
+			sourceTree = "<group>";
+		};
+		FC03A851198BDA040034CEB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC03A852198BDA040034CEB7 /* PyObjcExample-Info.plist */,
+				FC03A853198BDA040034CEB7 /* InfoPlist.strings */,
+				FC03A856198BDA040034CEB7 /* main.m */,
+				FC03A858198BDA040034CEB7 /* PyObjcExample-Prefix.pch */,
+				FC03A859198BDA040034CEB7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC03A86E198BDA050034CEB7 /* PyObjcExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC03A874198BDA050034CEB7 /* PyObjcExampleTests.m */,
+				FC03A86F198BDA050034CEB7 /* Supporting Files */,
+			);
+			path = PyObjcExampleTests;
+			sourceTree = "<group>";
+		};
+		FC03A86F198BDA050034CEB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC03A870198BDA050034CEB7 /* PyObjcExampleTests-Info.plist */,
+				FC03A871198BDA050034CEB7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC03A846198BDA040034CEB7 /* PyObjcExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC03A878198BDA050034CEB7 /* Build configuration list for PBXNativeTarget "PyObjcExample" */;
+			buildPhases = (
+				FC03A843198BDA040034CEB7 /* Sources */,
+				FC03A844198BDA040034CEB7 /* Frameworks */,
+				FC03A845198BDA040034CEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PyObjcExample;
+			productName = PyObjcExample;
+			productReference = FC03A847198BDA040034CEB7 /* PyObjcExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC03A867198BDA050034CEB7 /* PyObjcExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC03A87B198BDA050034CEB7 /* Build configuration list for PBXNativeTarget "PyObjcExampleTests" */;
+			buildPhases = (
+				FC03A864198BDA050034CEB7 /* Sources */,
+				FC03A865198BDA050034CEB7 /* Frameworks */,
+				FC03A866198BDA050034CEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC03A86D198BDA050034CEB7 /* PBXTargetDependency */,
+			);
+			name = PyObjcExampleTests;
+			productName = PyObjcExampleTests;
+			productReference = FC03A868198BDA050034CEB7 /* PyObjcExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC03A83F198BDA040034CEB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = POC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jon Hill";
+				TargetAttributes = {
+					FC03A867198BDA050034CEB7 = {
+						TestTargetID = FC03A846198BDA040034CEB7;
+					};
+				};
+			};
+			buildConfigurationList = FC03A842198BDA040034CEB7 /* Build configuration list for PBXProject "PyObjcExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC03A83E198BDA040034CEB7;
+			productRefGroup = FC03A848198BDA040034CEB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC03A846198BDA040034CEB7 /* PyObjcExample */,
+				FC03A867198BDA050034CEB7 /* PyObjcExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC03A845198BDA040034CEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC03A855198BDA040034CEB7 /* InfoPlist.strings in Resources */,
+				FC03A863198BDA050034CEB7 /* Images.xcassets in Resources */,
+				FC03A85B198BDA040034CEB7 /* Credits.rtf in Resources */,
+				FC03A861198BDA050034CEB7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC03A866198BDA050034CEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC03A873198BDA050034CEB7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC03A843198BDA040034CEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC03A857198BDA040034CEB7 /* main.m in Sources */,
+				FC03A85E198BDA040034CEB7 /* POCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC03A864198BDA050034CEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC03A875198BDA050034CEB7 /* PyObjcExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC03A86D198BDA050034CEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC03A846198BDA040034CEB7 /* PyObjcExample */;
+			targetProxy = FC03A86C198BDA050034CEB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC03A853198BDA040034CEB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC03A854198BDA040034CEB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC03A859198BDA040034CEB7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC03A85A198BDA040034CEB7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FC03A85F198BDA050034CEB7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC03A860198BDA050034CEB7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FC03A871198BDA050034CEB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC03A872198BDA050034CEB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC03A876198BDA050034CEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC03A877198BDA050034CEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC03A879198BDA050034CEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PyObjcExample/PyObjcExample-Prefix.pch";
+				INFOPLIST_FILE = "PyObjcExample/PyObjcExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC03A87A198BDA050034CEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PyObjcExample/PyObjcExample-Prefix.pch";
+				INFOPLIST_FILE = "PyObjcExample/PyObjcExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC03A87C198BDA050034CEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PyObjcExample.app/Contents/MacOS/PyObjcExample";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PyObjcExample/PyObjcExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PyObjcExampleTests/PyObjcExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC03A87D198BDA050034CEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PyObjcExample.app/Contents/MacOS/PyObjcExample";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PyObjcExample/PyObjcExample-Prefix.pch";
+				INFOPLIST_FILE = "PyObjcExampleTests/PyObjcExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC03A842198BDA040034CEB7 /* Build configuration list for PBXProject "PyObjcExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC03A876198BDA050034CEB7 /* Debug */,
+				FC03A877198BDA050034CEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC03A878198BDA050034CEB7 /* Build configuration list for PBXNativeTarget "PyObjcExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC03A879198BDA050034CEB7 /* Debug */,
+				FC03A87A198BDA050034CEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC03A87B198BDA050034CEB7 /* Build configuration list for PBXNativeTarget "PyObjcExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC03A87C198BDA050034CEB7 /* Debug */,
+				FC03A87D198BDA050034CEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC03A83F198BDA040034CEB7 /* Project object */;
+}
