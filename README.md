@@ -3,7 +3,7 @@
 ## Setup
 
 * install `virtualenv` and `virtualenvwrapper`
-* install pip
+* install `pip`
 * `mkvirtualenv pybojc`
 * `cd plugin`
 * `pip install -r requirements.txt`
