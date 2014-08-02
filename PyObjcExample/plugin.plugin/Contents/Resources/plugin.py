@@ -1,24 +1,26 @@
 #
-#  proto.py
-#  PyObjC2Test
-#
+#  plugin.py
+#  
 
 import objc, ctypes, re
 NSObject = objc.lookUpClass("NSObject")
 
-class ProtoWrapper(NSObject):
+class PluginWrapper(NSObject):
 	def init(self):
-		self = super(ProtoWrapper, self).init()
+		self = super(PluginWrapper, self).init()
 		return self
 
 	@objc.signature('i@:')
-	def count(self):
-		return 42
+	def years(self):
+		return 34
+	
+	@objc.signature('@@:')
+	def url(self):
+		return 'http://jonhill.ca'
 
 	@objc.signature('@@:')
 	def name(self):
 		return 'jonhillmtl'
 
 if __name__ == "__main__":
-	pw = ProtoWrapper.alloc().init()
-	print pw, pw.count(), pw.name()
+	pass

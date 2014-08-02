@@ -7,12 +7,23 @@
 //
 
 #import "POCAppDelegate.h"
+#import "PluginWrapper.h"
 
 @implementation POCAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSString *pluginPath = [[NSBundle mainBundle] pathForResource:@"plugin" ofType:@"plugin"];
+    NSBundle *pluginBundle = [NSBundle bundleWithPath:pluginPath];
+    
+    Class pyClass = [pluginBundle classNamed:@"PluginWrapper"];
+    PluginWrapper * wrapper = [[pyClass alloc] init];
+    NSLog(@"ProtoWrapper %@", wrapper);
+    NSLog(@"ProtoWrapper %@", [wrapper name]);
+    NSLog(@"ProtoWrapper %@", [wrapper url]);
+    
+    [self.textName setStringValue:[wrapper name]];
+    [self.textURL setStringValue:[wrapper url]];
 }
 
 @end

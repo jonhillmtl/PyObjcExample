@@ -18,6 +18,7 @@
 		FC03A86B198BDA050034CEB7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC03A84A198BDA040034CEB7 /* Cocoa.framework */; };
 		FC03A873198BDA050034CEB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC03A871198BDA050034CEB7 /* InfoPlist.strings */; };
 		FC03A875198BDA050034CEB7 /* PyObjcExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC03A874198BDA050034CEB7 /* PyObjcExampleTests.m */; };
+		FC814F98198C60B400B82DF9 /* plugin.plugin in Resources */ = {isa = PBXBuildFile; fileRef = FC814F97198C60B400B82DF9 /* plugin.plugin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		FC03A870198BDA050034CEB7 /* PyObjcExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PyObjcExampleTests-Info.plist"; sourceTree = "<group>"; };
 		FC03A872198BDA050034CEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC03A874198BDA050034CEB7 /* PyObjcExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PyObjcExampleTests.m; sourceTree = "<group>"; };
+		FC814F96198C28D000B82DF9 /* PluginWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginWrapper.h; sourceTree = "<group>"; };
+		FC814F97198C60B400B82DF9 /* plugin.plugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = plugin.plugin; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 		FC03A850198BDA040034CEB7 /* PyObjcExample */ = {
 			isa = PBXGroup;
 			children = (
+				FC814F97198C60B400B82DF9 /* plugin.plugin */,
 				FC03A85C198BDA040034CEB7 /* POCAppDelegate.h */,
 				FC03A85D198BDA040034CEB7 /* POCAppDelegate.m */,
+				FC814F96198C28D000B82DF9 /* PluginWrapper.h */,
 				FC03A85F198BDA050034CEB7 /* MainMenu.xib */,
 				FC03A862198BDA050034CEB7 /* Images.xcassets */,
 				FC03A851198BDA040034CEB7 /* Supporting Files */,
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC03A855198BDA040034CEB7 /* InfoPlist.strings in Resources */,
+				FC814F98198C60B400B82DF9 /* plugin.plugin in Resources */,
 				FC03A863198BDA050034CEB7 /* Images.xcassets in Resources */,
 				FC03A85B198BDA040034CEB7 /* Credits.rtf in Resources */,
 				FC03A861198BDA050034CEB7 /* MainMenu.xib in Resources */,
@@ -467,6 +473,7 @@
 				FC03A87A198BDA050034CEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC03A87B198BDA050034CEB7 /* Build configuration list for PBXNativeTarget "PyObjcExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +482,7 @@
 				FC03A87D198BDA050034CEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
